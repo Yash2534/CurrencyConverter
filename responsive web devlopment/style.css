@@ -1,0 +1,56 @@
+.main{
+    height: 95%;
+    width: 93%;
+   
+}
+nav{
+    height: 50px;
+    width:100%;
+    /*background-color: lightcoral; */
+    border-bottom: 2px solid #dada;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+}
+.nav-part2{
+    display: flex;
+   align-items: center;
+    gap: 4vw;
+
+}
+nav h2{
+    font-size: 2vw;
+    font-weight: 700;
+}
+nav h4{
+    font-size: 1vw;
+}
+nav i{
+    font-size: 1.6vw;
+    font-weight: 800s;
+    display: none;
+}
+.content{
+    height: 80%;
+    width: 93%;
+    background-color: orchid;
+}
+@media (max-width:600px) {
+nav{
+    background-color: seagreen;
+    color: white;
+    padding: 0 6vw;
+    height: 60px;
+}
+nav h2{
+    font-size: 6vw;
+}
+nav h4{
+     font-size: 4vw;
+}
+    nav i{
+        display: block;
+        font-size: 6vw;
+    }
+}
